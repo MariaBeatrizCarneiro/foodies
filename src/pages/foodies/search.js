@@ -261,7 +261,7 @@ import { useRouter } from "next/router";
 
         {/* Botão de Dificuldades */}
         <div ref={refDificuldade} onClick={() => toggleDropdownMenu('Dificuldade')}>
-          <button className="btnDificuldade py-2 px-4 bg-verdeClaro text-white text-sm font-semibold rounded-xl hover:bg-verde focus:outline-none focus:bg-verde" onClick={() => setShowMenuDificuldade(!showMenuDificuldade)}>
+          <button className="btnDificuldade py-2 px-3 mx-1 bg-verdeClaro text-white text-sm font-semibold rounded-xl hover:bg-verde focus:outline-none focus:bg-verde" onClick={() => setShowMenuDificuldade(!showMenuDificuldade)}>
             Dificuldades ▿
           </button>
           {showMenuDificuldade && (
@@ -287,7 +287,7 @@ import { useRouter } from "next/router";
 
         {/* Botão de Categorias */}
         <div ref={refCategoria} onClick={() => toggleDropdownMenu('Categoria')}>
-          <button className="btnCategoria py-2 px-4  bg-verdeClaro text-white text-sm font-semibold rounded-xl hover:bg-verde focus:outline-none focus:bg-verde" onClick={() => setShowMenuCategoria(!showMenuCategoria)}>
+          <button className="btnCategoria py-2 px-3 mx-1  bg-verdeClaro text-white text-sm font-semibold rounded-xl hover:bg-verde focus:outline-none focus:bg-verde" onClick={() => setShowMenuCategoria(!showMenuCategoria)}>
             Categorias ▿
           </button>
           {showMenuCategoria && (
@@ -313,7 +313,7 @@ import { useRouter } from "next/router";
 
         {/* Botão de Ordenação */}
         <div ref={refOrdenar} onClick={() => toggleDropdownMenu('Ordenar')}>
-          <button className="btnOrdenar py-2 px-4  bg-verdeClaro text-white text-sm font-semibold rounded-xl hover:bg-verde focus:outline-none focus:bg-verde" onClick={() => setShowMenuOrdenar(!showMenuOrdenar)}>
+          <button className="btnOrdenar py-2 px-3 mx-1  bg-verdeClaro text-white text-sm font-semibold rounded-xl hover:bg-verde focus:outline-none focus:bg-verde" onClick={() => setShowMenuOrdenar(!showMenuOrdenar)}>
             Ordenar por ▿
           </button>
           {showMenuOrdenar && (
